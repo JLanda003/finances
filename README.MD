@@ -74,12 +74,33 @@ Esto construye todo, espera a la base de datos, aplica migraciones y crea el sup
   - Superusuario: admin
   - Contraseña: admin123
 
-💻 Desarrollo (modo en caliente)
+#### 💻 Desarrollo (modo en caliente)
 Si quieres usar runserver para recarga automática:
 ```
   chmod +x dev.sh
   ./dev.sh
 ```
+
+#### 💻 Stop (Parar el modo en caliente en dev)
+```
+  chmod +x stop-dev.sh
+  ./stop-dev.sh
+```
+
+#### 💻 Reset (Limpieza)
+Si quieres usar runserver para recarga automática:
+```
+  chmod +x reset.sh
+```
+##### Para limpiar y reconstruir automáticamente (por defecto):
+```
+  ./dev.sh
+```
+##### Para limpiar sin reconstruir:
+```
+  ./reset.sh --skip-build
+```
+
 🔗 Accesos
   - 🛠️ Django API / Admin: http://localhost:8000
 
