@@ -1,0 +1,33 @@
+# Archivos de texto (normaliza line endings a LF)
+* text=auto
+
+# Archivos Python
+*.py diff=python
+
+# Archivos JS/TS/React
+*.js diff=javascript
+*.jsx diff=javascript
+*.ts diff=typescript
+*.tsx diff=typescript
+
+# Archivos JSON/YAML
+*.json diff=json
+*.yml diff=yaml
+*.yaml diff=yaml
+
+# Archivos ignorados en diff
+*.lock binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.svg binary
+
+# EOL normalization para shell scripts
+*.sh text eol=lf
+*.env text eol=lf
+Dockerfile text eol=lf
+
+# Evitar conflictos en archivos binarios
+*.sqlite3 binary
