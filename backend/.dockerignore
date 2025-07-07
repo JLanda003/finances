@@ -1,0 +1,19 @@
+# Ignorar entornos virtuales
+venv/
+env/
+
+# Archivos compilados y caché
+__pycache__/
+*.pyc
+
+# Archivos de configuración locales
+.env
+*.sqlite3
+
+# Logs
+*.log
+
+# Archivos del sistema y editores
+.DS_Store
+.vscode/
+.idea/

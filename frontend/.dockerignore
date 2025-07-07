@@ -1,0 +1,17 @@
+# Node dependencies
+node_modules/
+
+# Archivos de build
+dist/
+build/
+
+# Archivos de configuración locales
+.env.local
+.env.*.local
+.env.development
+
+# Logs y sistema
+*.log
+.DS_Store
+.vscode/
+.idea/
